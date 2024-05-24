@@ -1,0 +1,49 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+.clicavel{
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+}
+.dropdown{
+    width: 30px;
+   }
+   .dropdown ul{
+     text-align: center;
+     padding-left: 0;
+   }
+   .dropdown ul li{
+     list-style: none;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     margin-bottom: 5px;
+     font-size: 20px;
+     
+   }
+   .itens:hover ul{
+     display: block;
+     cursor: pointer;
+   }
+   .dropdown ul li:hover{
+     background-color: grey;
+   }
+   .itens{
+     width: 100px;
+     height: 100px;
+     position: absolute;
+     background-color: white;
+     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+     border-radius: 8px;
+     display: none;
+   }
+   .dropdown:hover .itens{
+     display: block;
+   }
+   button{
+     margin-bottom: 10px;
+   } 
+   
+   
